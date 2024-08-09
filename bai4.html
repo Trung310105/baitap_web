@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <style>
+        body{
+          background-color: black;
+        }
+        form{
+          width: 300px;
+          height: 300px;
+          margin: auto;
+          margin-top: 210px;
+          color: white;
+          background-color: black;
+          border: 2px solid white;
+          border-radius: 10px;
+          padding-left: 25px;
+        }
+        header{
+          line-height: 15px;
+        }
+        bodyer{
+          line-height: 35px;
+        }
+        label#label1{
+          font-size: 25px;
+        }
+        input#name{
+          color: #888888;
+          background-color: black;
+          width: 260px;
+          height: 29px;
+          border: 2px solid white;
+          border-radius: 5px;
+          font-size: 20px;
+          padding-left: 10px;
+        }
+        p{
+          color: #888888;
+        }
+        label#label2{
+          font-size: 25px;
+        }
+        select{
+          color: white;
+          background-color: black;
+          width: 270px;
+          height: 32px;
+          border: 2px solid white;
+          border-radius: 5px;
+          font-size: 20px;
+          padding-left: 10px;
+        }
+        button#button2{
+          margin-left: 102px;
+          width: 80px;
+          height: 30px;
+          border-radius: 5px;
+          font-size: 17px;
+        }
+        button#button1{
+          margin-top: 20px;
+          width: 80px;
+          height: 30px;
+          color: white;
+          background-color: black;
+          border: 2px solid #888888;
+          border-radius: 5px;
+          font-size: 17px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <header>
+        <h1 id = "create project">Create project</h1>
+        <!--      <br>-->
+        <p>Deploy your new project in one-click.</p>
+      </header>
+      <bodyer>
+        <label for="name" id = "label1">Name</label> <br>
+        <input type="text" id = "name" value = "Name of your project">
+        <br>
+        <label for="framework" id = "label2">Framework</label> <br>
+        <select id="framework">
+          <option value="">Select</option>
+          <option value="">1</option>
+          <option value="">2</option>
+          <option value="">3</option>
+        </select>
+        <br>
+      </bodyer>
+      <footer>
+        <button id = "button1">Cancel</button>
+        <button id = "button2">Deploy</button>
+      </footer>
+    </form>
+  </body>
+</html>
